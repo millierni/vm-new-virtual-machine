@@ -35,7 +35,7 @@
 	  	- Enable boot menu
 	  	- Select SATA CDROM & put it first
   	- Remove Tablet, Display Spice, Channel spice, Video QXL, USB Redirector 1 & 2
-  	- Add PCI Host Device (GPU)  
+  	- Add PCI Host Device (GPU) `Use your GPU PCI buses`  
     		- 0000:12:00.0  
     		- 0000:12:00.1  
     		- 0000:12:00.2  
