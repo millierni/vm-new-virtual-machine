@@ -21,9 +21,11 @@
   sudo virsh net-autostart default
   sudo virsh net-start default
   ```
+- Download the ISO of the OS
+- Move your OS ISO image into `~/Documents/KVM`
 - Open `Virtual Machine Manager`
 	- Create a new virtual machine
-		- ISO image
+		- Choose your ISO image
     		- Memory: 32000
     		- CPUs: 16
     		- Customize configuration before install
