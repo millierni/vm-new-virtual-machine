@@ -5,6 +5,10 @@
   ```
   sudo mkdir ~/Documents/KVM
   ```
+- Destroy the default storage pool
+  ```
+  sudo virsh pool-destroy default
+  ```
 - Setup default storage pool
   ```
   sudo virsh pool-define-as --name default --type dir --target ~/Documents/KVM
