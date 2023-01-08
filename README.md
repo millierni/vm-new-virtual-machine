@@ -35,13 +35,13 @@
 	  	- Enable boot menu
 	  	- Select SATA CDROM & put it first
   	- Remove Tablet, Display Spice, Channel spice, Video QXL, USB Redirector 1 & 2
-  	- Add PCI Host Device (GPU)
-    		- 0000:12:00.0 
-    		- 0000:12:00.1 
-    		- 0000:12:00.2 
+  	- Add PCI Host Device (GPU)  
+    		- 0000:12:00.0  
+    		- 0000:12:00.1  
+    		- 0000:12:00.2  
     		- 0000:12:00.3
 	- Add PCI Host Device (Network interface port) (optional) `Use your Network interface PCI buses`
 		- 0000:08:00.0
-	- Add PCI Host Device (USB hub) (optional)
+	- Add PCI Host Device (USB hub) (optional) `Use your USB hub PCI buses`
 		- 0000:06:00.0
 		- Remove the Virtual Network Interface
