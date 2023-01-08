@@ -24,7 +24,7 @@
 - Download the ISO of the OS
 - Move your OS ISO image into `~/Documents/KVM`
 - Open `Virtual Machine Manager`
-	- Create a new virtual machine *(change the parameters value for what you want)*
+	- Create a new virtual machine `Change the values for your needs`
 		- Choose your ISO image
     		- Memory: 32000
     		- CPUs: 16
@@ -35,12 +35,12 @@
 	  	- Enable boot menu
 	  	- Select SATA CDROM & put it first
   	- Remove Tablet, Display Spice, Channel spice, Video QXL, USB Redirector 1 & 2
-  	- Add PCI Host Device (GPU) `Use your GPU PCI buses`
+  	- Add PCI Host Device (GPU)
     		- 0000:12:00.0 
     		- 0000:12:00.1 
     		- 0000:12:00.2 
     		- 0000:12:00.3
-	- Add PCI Host Device (Internet interface port) (optional)
+	- Add PCI Host Device (Network interface port) (optional) `Use your Network interface PCI buses`
 		- 0000:08:00.0
 	- Add PCI Host Device (USB hub) (optional)
 		- 0000:06:00.0
