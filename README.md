@@ -44,3 +44,4 @@
 		- 0000:08:00.0
 	- Add PCI Host Device (USB hub) (optional)
 		- 0000:06:00.0
+		- Remove the Virtual Network Interface
