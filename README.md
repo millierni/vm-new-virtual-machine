@@ -45,3 +45,6 @@
 	- Add PCI Host Device (USB hub) (optional) `Use your USB hub PCI buses`
 		- 0000:06:00.0
 		- Remove the Virtual Network Interface
+	- Add PCI Host Device (Audio Controller) (optional) `Use your Audio controller PCI buses`
+		- 0000:14:00.4
+		- Remove the Virtual Sound Interface 
